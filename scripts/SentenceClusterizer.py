@@ -6,6 +6,7 @@ from hdbscan.hdbscan_ import HDBSCAN
 import pandas as pd
 from sklearn.model_selection import ShuffleSplit
 from sklearn.model_selection import RandomizedSearchCV
+from scripts.DisableCV import DisabledCV
 
 
 def normalized_tokenizer(text):
@@ -71,7 +72,7 @@ def hdb_scorer(hdb_algo, X):
     scores.loc[scores["probability"]>=0.05, "confident"] = 1
     scores.loc[scores["label"] == -1, "confident"] = 0
     score = scores["confident"].sum()/scores["label"].count()
-    print("Returning score : " + str(score))
+    print("Returning Score : " + str(score))
     return score
 
 
@@ -83,9 +84,8 @@ def hdb_segment_generalized(matrix, iterations=50):
         "cluster_selection_method": ["eom", "leaf"],
         "allow_single_cluster": [True, False]
     }
-    cv = [(slice(None), slice(None))]
     random_search = RandomizedSearchCV(estimator=HDBSCAN(), param_distributions=parameter_grid,
-                      scoring=hdb_scorer, cv=ShuffleSplit(test_size=0.01, n_splits=1), n_jobs=-2, random_state=45,
+                      scoring=hdb_scorer, cv=DisabledCV(), n_jobs=-2, random_state=45,
                                        n_iter=iterations, refit=True)
 
     random_search.fit(matrix)
