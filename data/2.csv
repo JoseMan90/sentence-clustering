@@ -1,0 +1,477 @@
+Bug ID,Product,Component,Assignee,Status,Resolution,Summary,Changed
+16793,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,Make a way to get amount of available memory on Linux,4/2/2016 19:06
+15963,R,System-specific,R-core@R-project.org,NEW,---,R 3.1.1 core during make check on ppc64 archi,4/2/2015 12:18
+15554,R,Accuracy,R-core@R-project.org,ASSIGNED,---,bessel function issues,9/10/2015 12:33
+16034,R,Wishlist,R-core@R-project.org,NEW,---,wish: use iterative unserialization for pairlists,4/21/2015 6:11
+16716,R,Language,R-core@R-project.org,ASSIGNED,---,tar does not add any files to compressed directory,3/4/2016 11:00
+16497,R,Graphics,martyn.plummer@r-project.org,ASSIGNED,---,X11() hangs after updating to xorg-x11-server-Xort-1.15.0-36.elg.x86_64,11/5/2015 12:38
+15084,R,Documentation,R-core@R-project.org,NEW,---,Rd2HTML fails to insert paragraph breaks after code blocks,6/24/2014 22:36
+16542,R,Analyses,R-core@R-project.org,ASSIGNED,---,nlme:::summary.lmList with unequal outputs per group,10/5/2015 9:29
+15045,R,Wishlist,R-core@R-project.org,ASSIGNED,---,Add support for R CMD check --level and env var _R_CHECK_LEVEL_,9/8/2012 14:07
+14359,R,Analyses,R-core@R-project.org,ASSIGNED,---,Wishlist: enhance formula interface in t.test(),3/20/2011 16:38
+16617,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,write.arff output boolean as numeric,12/1/2015 9:50
+16560,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,AIX 32 bit R 3.2.2 segfault when reading non-trivial data set,10/9/2015 18:11
+16421,R,S4methods,R-core@R-project.org,UNCONFIRMED,---,"infinite recursion in automatic ""coerce<-"" method",6/16/2015 12:28
+16422,R,S4methods,R-core@R-project.org,UNCONFIRMED,---,"method definitions unexpectedly altered and inheritance broken after defining a ""coerce"" method",6/12/2015 21:22
+16651,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,chooseCRANmirror() causes cryptnet.dll error,1/4/2016 17:46
+16706,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Interfacing with Finder on OS X 10.11 causes crashes,3/2/2016 12:55
+16629,R,S4methods,R-core@R-project.org,NEW,---,Infinite recursion when S4 object has S3 superclass and a slot of type call,12/15/2015 13:30
+14730,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,tcltk window freezes when interrupting calculations/locator function,8/5/2013 10:06
+15209,R,Language,R-core@R-project.org,NEW,---,difftime concatenation,12/6/2014 13:50
+16515,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,Starting 64-bit R in Windows 7 Fails because calls to ntdll.dll and kernel32.dll both run as 32-bit vs. 64-bit,8/19/2015 1:58
+16102,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Hangs on Open Dialogue,11/19/2015 19:18
+16674,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,Problem with functions using lapack when there are large objects in memory,1/20/2016 11:38
+15942,R,Low-level,R-core@R-project.org,NEW,---,R CMD check --as-cran fails from read-only file system or directory tree,8/20/2014 10:13
+16565,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,R.dll mistakenly export symbols like printf(),10/15/2015 6:30
+16376,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,tools::codoc in src/library/tools/R/QC.R uses the wrong regular expression function,5/10/2015 13:07
+16728,R,Language,R-core@R-project.org,UNCONFIRMED,---,gsub does not handle properly new lines in regular expressions,2/26/2016 9:58
+16794,R,Misc,R-core@R-project.org,UNCONFIRMED,---,Using delete on the end of the line causes a seg fault,4/4/2016 8:51
+15018,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Resizing Terminal or Application Windows Results in Long Delays While Text is Reformatted,5/26/2015 7:27
+15952,R,Misc,R-core@R-project.org,NEW,---,Problem with sort? inconsistent results.,8/28/2014 15:15
+16678,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,adf.test() fails for less than 7 values,1/21/2016 11:09
+16070,R,Models,R-core@R-project.org,REOPENED,---,terms function mishandling case when intercept is excluded,11/21/2014 22:05
+15746,R,Low-level,R-core@R-project.org,ASSIGNED,---,quantile over repeated floating point bug,4/12/2016 10:13
+16389,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,"incorrect declaration of F77_NAME(dppsvx): 'fact' should be const char*, not const int*.",5/15/2015 23:53
+16446,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,Unloading dynamic library bug,7/4/2015 18:39
+16085,R,Graphics,R-core@R-project.org,NEW,---,stdwidth with SVG or Cairo devices crashes R,9/9/2015 8:50
+16390,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,missing 'const' declarations in R_ext/Lapack.h and R_ext/BLAS.h,5/16/2015 0:16
+15971,R,I/O,R-core@R-project.org,NEW,---,Inconsistent treatment of character vectors with read.table or read.csv,9/10/2014 21:55
+15958,R,Language,michafla@gene.com,ASSIGNED,---,super assignment <<- fails in call-back functions,9/5/2014 21:15
+15639,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,"list.files(...,recursive=TRUE) fails on Mac GUI",1/15/2014 3:24
+16391,R,Models,R-core@R-project.org,UNCONFIRMED,---,factanal returns wrong rotation matrix when rotation method calls GPArotation package,5/20/2015 10:00
+16454,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,Problem with simultaneous download using download.file,6/26/2015 1:04
+15884,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,scan() failed to seperate Chinese Character string with spaces,7/16/2014 4:31
+16364,R,Installation,R-core@R-project.org,NEW,---,"Bug in R_PCRE autoconf macro can lead to linker errors when using system libz, libbz2",5/6/2015 6:02
+16232,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,R cannot display foreign characters (reading UTF-8 text),3/3/2015 11:59
+15782,R,Windows GUI / Window specific,marco.maier@wu.ac.at,NEW,---,"(semi-)transparent ""grid"" elements disappear in the graphics device upon resizing",5/11/2015 5:40
+16654,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,Cochran condition in fisher.test hybrid mode might be incorrect,1/4/2016 4:29
+16845,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,There appears to be an error computing the CDF of a non-central T distributed random variable using the pt() function,4/19/2016 20:37
+16540,R,I/O,R-core@R-project.org,UNCONFIRMED,---,groupedData within a function does not work,9/21/2015 20:30
+15814,R,Installation,R-core@R-project.org,UNCONFIRMED,---,package installer freezes,6/1/2014 13:05
+14685,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,"eigen() may crash or hang on OS X Lion in binary distribution of R, 64-bit only",4/17/2012 6:30
+16846,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,how to remove filled.contour white interior grid?,4/20/2016 9:34
+15940,R,Startup,R-core@R-project.org,UNCONFIRMED,---,Rprofile file not read under MAC OS 10.9.4,8/21/2014 17:27
+16166,R,Analyses,R-core@R-project.org,NEW,---,inconsistent results of zapsmall called by Thin.row (especially in anova.mlm),1/26/2015 15:28
+15531,R,Low-level,R-core@R-project.org,NEW,---,sys.parent() provides incorrect result when multiple call frames use the same environment,11/7/2013 18:51
+16406,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,possibility to delete the entire '/home' directory when building a package,6/2/2015 13:30
+16239,R,Models,R-core@R-project.org,NEW,---,"Bug in predict(..., newdata) with poly() on more than one variable",3/5/2015 18:34
+15892,R,Add-ons,R-core@R-project.org,NEW,---,nlme:anova unable to find formula object defined inside function,9/7/2014 23:12
+14335,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Documents open in the R.app editor become unresponsive or do not update changes,3/21/2011 18:01
+15189,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Copying a Graphics Window Copies All Graphic Elements Rather Than Bitmap,1/30/2013 20:55
+16854,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,R guy keeps freezes when editing document,4/26/2016 4:01
+16423,R,S4methods,R-core@R-project.org,ASSIGNED,---,canCoerce() reports false negative then changes its mind -- selectMethod() bug,6/16/2015 13:32
+16663,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,get_all_vars  produces wrong column names,1/11/2016 12:01
+10455,R,Analyses,jitterbug-import,NEW,---,Bug in pacf -- Proposed patch,11/23/2007 23:33
+1729,R,Add-ons,jitterbug-import,NEW,---,problem with qq( ),7/8/2002 22:44
+16723,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,sink() text goes missing after mclapply,2/22/2016 14:05
+4073,R,S4methods,jitterbug-import,NEW,---,Problem with S4 slots in C code,9/5/2003 19:29
+16513,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,minimal reproducible read.fwf() example that crashes the console on windows 8 with 32-bit R,8/25/2015 23:51
+6613,R,Wishlist,jitterbug-import,NEW,---,summary(),3/20/2015 9:31
+16756,R,Low-level,R-core@R-project.org,NEW,---,Parse data not available in package,3/10/2016 15:09
+7402,R,Wishlist,jitterbug-import,NEW,---,Wishlist: heatmap/image legend,12/7/2004 1:08
+8053,R,S4methods,jitterbug-import,NEW,---,"S4 setClass with prototypes "" issues""",8/6/2005 0:06
+988,R,Documentation,jitterbug-import,NEW,---,input for R-intro,6/18/2001 23:57
+15242,R,S4methods,R-core@R-project.org,NEW,---,insertSource doesn't work against S4 methods,3/24/2013 7:17
+16672,R,Language,R-core@R-project.org,UNCONFIRMED,---,quantile produces decreasing output,3/27/2016 14:07
+10701,R,Documentation,jitterbug-import,NEW,---,Suggestions for R-intro manual,2/6/2008 9:02
+1772,R,Documentation,jitterbug-import,NEW,---,bug(?) in R FAQ - Should I run R from within Emacs?,7/11/2002 13:21
+16724,R,Misc,R-core@R-project.org,UNCONFIRMED,---,How to release R resources when R terminal is closed,2/22/2016 20:26
+4254,R,Wishlist,jitterbug-import,NEW,---,documentation search: problem with links,9/23/2003 0:19
+16792,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,parallel:parLapplyLB does not load balance,3/31/2016 14:30
+6701,R,Add-ons,jitterbug-import,NEW,---,lookup.xport in foreign ignoring some datasets,3/27/2004 4:40
+15342,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,Mapping categorical variables in ggplot2 may crash or hang on OS X Lion in binary distribution of R 3.0.1 and R.app,8/21/2014 17:17
+16856,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,Addition of millisecond adds a second,4/27/2016 22:01
+16562,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,mclapply() with tcltk causes subsequent system() to return exit status inconsistently,10/11/2015 14:10
+16780,R,Installation,R-core@R-project.org,NEW,---,make install fails if TeX/texinfo is not available,3/24/2016 3:52
+7668,R,Graphics,jitterbug-import,NEW,---,barplot: space makes beside=F ,2/8/2005 17:00
+8099,R,Analyses,jitterbug-import,NEW,---,bug in L-BFGS-B?,8/27/2005 19:10
+997,R,Graphics,jitterbug-import,NEW,---,las=1 with log axis ,7/17/2001 15:05
+15248,R,Add-ons,R-core@R-project.org,NEW,---,Attached dBase file not loaded correctly by read.dbf(),3/28/2013 10:40
+12572,R,Misc,jitterbug-import,NEW,---,unlist on nested lists of factors,8/20/2008 18:20
+16184,R,Accuracy,R-core@R-project.org,NEW,---,"potential numerical issues with large margins in chisq.test(..., simulate.p.value = TRUE)",2/3/2015 14:39
+1861,R,Models,jitterbug-import,NEW,---,update() can not find objects,7/8/2014 6:55
+16257,R,Language,R-core@R-project.org,NEW,---,R 3.1.3 console output when source() used,3/12/2015 22:32
+4295,R,System-specific,jitterbug-import,NEW,---,Bugs compiling R-1.7.1 with Intel compilers icc and ifc,9/27/2003 4:20
+15842,R,Analyses,R-core@R-project.org,NEW,---,quade.test reports other results for reordered data frames,6/26/2014 14:09
+16326,R,Models,R-core@R-project.org,NEW,---,update.formula does still not work properly,2/22/2016 8:00
+6763,R,Graphics,jitterbug-import,NEW,---,postscript image problem,4/29/2004 8:16
+15351,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,the Rgui editor crashes occasionally when editing,9/30/2013 14:10
+16857,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,lmeControl() sets sigma to 0 not NULL,4/28/2016 15:10
+7735,R,S4methods,jitterbug-import,NEW,---,2 possible bugs in function validObject,3/18/2005 23:21
+14998,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,"Suggestion for two internal self-reference in ""Writing R Extensions"" manual",
+8112,R,S4methods,jitterbug-import,NEW,---,Bug in copying of S4 objects,9/2/2005 8:33
+16103,R,Graphics,R-core@R-project.org,NEW,---,Anti-aliasing not used for certain pch symbols,12/10/2014 19:32
+1011,R,Documentation,jitterbug-import,NEW,---,R-intro suggestions part II,7/4/2001 1:50
+1045,R,Graphics,jitterbug-import,NEW,---,Palette changes on redraw,8/9/2001 1:37
+16675,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,predict gives warnings/odd results when using a loess fit object created in 3.2.2,1/20/2016 11:57
+13231,R,Misc,jitterbug-import,NEW,---,using yscrollcommand in tkcanvas crashes R,10/30/2008 21:30
+1972,R,Add-ons,jitterbug-import,NEW,---,lattice install,9/2/2002 7:55
+15027,R,I/O,R-core@R-project.org,NEW,---,max.print is ignored for matrix headers,8/23/2012 19:48
+4459,R,System-specific,jitterbug-import,NEW,---,Redhat 7.2 gcc optimisation ,10/8/2003 7:28
+15848,R,Analyses,R-core@R-project.org,NEW,---,Factanal Print function semi-random signs for inter-factor correlations,7/2/2014 15:23
+16330,R,Add-ons,R-core@R-project.org,NEW,---,foreign package: memory protection error (trivial to fix),4/23/2015 10:53
+6797,R,Installation,jitterbug-import,NEW,---,R.spec,4/20/2004 15:20
+15357,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,segfault,7/15/2013 19:44
+16858,R,Models,R-core@R-project.org,UNCONFIRMED,---,There is issue in modl,4/28/2016 16:46
+16568,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,rpart (x ~ x) segfaults,10/15/2015 22:50
+7780,R,Graphics,jitterbug-import,NEW,---,palette bug,4/8/2005 2:33
+8117,R,Wishlist,jitterbug-import,NEW,---,whislist,9/1/2005 14:07
+1161,R,Graphics,jitterbug-import,NEW,---,x-axis label in persp(),11/7/2001 16:07
+13861,R,Low-level,jitterbug-import,NEW,---,Strange Interaction Between Promises and Closures,7/30/2009 14:12
+2159,R,Wishlist,jitterbug-import,NEW,---,The class attribute on an environment seems buggy,10/14/2002 18:54
+15038,R,Low-level,R-core@R-project.org,NEW,---,Error using Imports with a package that uses [,9/3/2012 22:46
+4474,R,Low-level,jitterbug-import,NEW,---,Memmory Bugs,10/9/2003 1:09
+15853,R,Misc,R-core@R-project.org,NEW,---,chol problem with positive semi definite matrix and pivoting,6/9/2015 21:59
+4246,R,Windows GUI / Window specific,jitterbug-import,ASSIGNED,---,creates directory that can't be deleted,4/10/2015 18:57
+16333,R,Misc,R-core@R-project.org,NEW,---,Allow different way to specify vignette engine,4/26/2015 12:35
+6862,R,Installation,jitterbug-import,NEW,---,Fortran compiler dependency missing in gentoo ebuild script ,5/7/2004 19:49
+15463,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,R.app' data editor rounds some data in a data frame,5/2/2014 14:28
+16569,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,rpart.residuals are +/- Inf,10/15/2015 22:54
+15941,R,I/O,R-core@R-project.org,REOPENED,---,"Long, multiple-expression console input causes premature EOF",8/21/2014 17:34
+7801,R,Accuracy,jitterbug-import,NEW,---,negative p-values from fisher's test,4/21/2005 2:31
+8192,R,Wishlist,jitterbug-import,NEW,---,[ subscripting sometimes loses names,10/19/2005 17:33
+1241,R,Language,jitterbug-import,NEW,---,"Problem with ""missing"" in ""local"" ",1/4/2002 20:37
+13870,R,Windows GUI / Window specific,jitterbug-import,NEW,---,Alt-F4 leaves RGUI  console in wait state when closing some dialog boxes,8/5/2009 2:59
+2173,R,Add-ons,jitterbug-import,NEW,---,"xlim in plot.survfit() [with a discussion on ""...""]",10/16/2002 21:46
+4724,R,Add-ons,jitterbug-import,NEW,---,Core dump when calling tclvalue,10/22/2003 23:01
+15854,R,Analyses,R-core@R-project.org,NEW,---,problem to relist list containing NULL elements,7/6/2014 13:31
+13624,R,Misc,R-core@R-project.org,ASSIGNED,---,get_all_vars fails with matrices,4/12/2010 6:30
+16802,R,Misc,R-core@R-project.org,UNCONFIRMED,---,Cut breaks are not unique if all(x == 0),4/7/2016 14:00
+7084,R,Graphics,jitterbug-import,NEW,---,"text(x, y, labels) - recycling problems and RFC",8/20/2004 18:04
+16573,R,Language,R-core@R-project.org,UNCONFIRMED,---,vector with date objects does not retain class if the vector begins with NA,10/19/2015 20:35
+7895,R,Add-ons,jitterbug-import,NEW,---,Error with user defined split function in rpart,5/25/2005 19:15
+16071,R,Installation,R-core@R-project.org,NEW,---,side-by-side error (code 63) with tk85.dll of R in event viewer,11/14/2014 17:03
+8265,R,Analyses,jitterbug-import,NEW,---,Yates' correction for continuity in chisq.test,10/31/2005 22:11
+8275,R,Analyses,jitterbug-import,NEW,---,Bugs/issues with model.tables(),11/2/2005 12:43
+1261,R,System-specific,jitterbug-import,NEW,---,R_140 AND RHL_72 AND Packages,1/15/2003 18:25
+15293,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,R Data Editor crashes when adds a new column,4/27/2013 12:56
+13967,R,Misc,jitterbug-import,NEW,---,warnings handled oddly in functions with browser calls,9/23/2009 23:44
+16211,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,When calling `R_HOME/bin/Rscript.exe' RScript does not respect escaped quotes in script arguments.,2/13/2015 16:01
+2351,R,Wishlist,jitterbug-import,NEW,---,"Re: [Rd] Bugs in Version 1.6.1  (2002-11-01), Windows Edition(PR#2350)",12/5/2002 22:21
+16442,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,rbind() produces wrong row numbers when the first argument is an empty dataframe,6/23/2015 11:04
+4731,R,Graphics,jitterbug-import,NEW,---,persp - incorrect shading of triangular facets,10/23/2003 5:19
+13679,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,crash after using graphics in Rcmdr,4/12/2010 6:25
+16529,R,I/O,R-core@R-project.org,UNCONFIRMED,---,write() adding wrong separator char,11/2/2015 11:00
+7178,R,Graphics,jitterbug-import,NEW,---,"contour method=""edge"" when vertical.",8/16/2004 15:05
+16583,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,Stats heatmap add.expr only looks in global environment,12/22/2015 22:39
+7923,R,Wishlist,jitterbug-import,NEW,---,Bug in help(package=),6/9/2005 0:59
+8528,R,Accuracy,jitterbug-import,NEW,---,pgamma - inadequate algorithm design and poor coding,10/22/2011 7:46
+1384,R,Wishlist,jitterbug-import,NEW,---,KDE frontend,3/14/2002 21:19
+15314,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,file.show called on a directory causes a crash,5/17/2013 2:52
+2461,R,Wishlist,jitterbug-import,NEW,---,apropos() with partial name,1/16/2003 15:22
+16740,R,Misc,R-core@R-project.org,UNCONFIRMED,---,_R_CHECK_FORCE_SUGGESTS_ should be taken into account on missing VB error,3/1/2016 1:55
+4757,R,Analyses,jitterbug-import,NEW,---,NLME: gls parameter evaluation inconsistency,10/24/2003 21:16
+15878,R,Language,R-core@R-project.org,NEW,---,Check for valid logical values from .C is broken,4/14/2016 10:54
+16351,R,Graphics,R-core@R-project.org,NEW,---,R hangs when plotting invalid hexadecimal UTF-8 byte sequences,4/29/2015 9:45
+7195,R,Documentation,jitterbug-import,NEW,---,additional examples for R-intro.texi,8/24/2004 15:59
+15966,R,Installation,R-core@R-project.org,NEW,---,Should link to libR.dylib without full path,9/8/2014 1:01
+16584,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,"scan() may add ""＼n"" to UTF-8 string in some locale settings on Windows",10/28/2015 12:59
+7930,R,Wishlist,jitterbug-import,NEW,---,Wishlist: axis( ) could take vector of colors,6/11/2005 19:18
+8535,R,Wishlist,jitterbug-import,NEW,---,dataentry(),1/29/2006 23:39
+16135,R,Analyses,R-core@R-project.org,NEW,---,"error in: convolve( 1:5, 1, type='filter')",1/6/2015 14:07
+1387,R,Wishlist,jitterbug-import,NEW,---,"X11(colortype=""true"") does not give a truecolor visual",3/17/2002 3:08
+16697,R,Installation,R-core@R-project.org,UNCONFIRMED,---,NA/NaN/Inf in foreign function call,2/5/2016 19:57
+16223,R,Misc,R-core@R-project.org,NEW,---,'R CMD check' fails to report ... being in ＼arguments but not in ＼usage,2/26/2015 1:30
+2520,R,Add-ons,jitterbug-import,NEW,---,Apparent parser problem,2/2/2003 7:53
+15689,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Received an Obj-C error NSRangeException in Mac GUI editor,2/25/2014 18:42
+16453,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,grid.cap does not capture portion of quartz window that lies off screen.,7/20/2015 1:01
+4836,R,Wishlist,jitterbug-import,NEW,---,Wishlist: user-specified color names for palette(),10/29/2003 6:54
+15882,R,Documentation,R-core@R-project.org,NEW,---,"[ requires a positional argument, not mentioned in docs",7/14/2014 21:05
+16534,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,R_allocLD not returning 16-byte-aligned storage blocks,9/15/2015 16:41
+16359,R,I/O,R-core@R-project.org,NEW,---,read.csv corrupts connections,5/1/2015 9:19
+7208,R,Documentation,jitterbug-import,NEW,---,Documentation  R-intro input,9/2/2004 21:16
+7931,R,Wishlist,jitterbug-import,NEW,---,Wishlist: strwidth allow for rotation of text,6/11/2005 16:01
+16086,R,I/O,R-core@R-project.org,NEW,---,write.foreign(...package='SPSS') incorrect SPSS syntax being generated in foreign_0.8-61,11/25/2014 0:17
+16644,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,unloadNamespace() does not address unevaluated promises in the S3 Methods Table,12/29/2015 22:32
+8659,R,Wishlist,jitterbug-import,NEW,---,Wishlist: xtabs and table to optionally use attribute value labels ,3/5/2006 15:22
+1388,R,Wishlist,jitterbug-import,NEW,---,"Re: [Rd] X11(colortype=""true"") does not give a truecolor visual(PR#1387)",3/17/2002 0:08
+16699,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Project manager,2/14/2016 9:05
+2606,R,Wishlist,jitterbug-import,NEW,---,modifying ftable to allow percentages (wishlist),3/5/2003 23:10
+16745,R,Misc,R-core@R-project.org,UNCONFIRMED,---,"strsplit(perl=TRUE, pattern=""[[:<:]]"", ...) gives wrong result",3/8/2016 16:17
+5045,R,Wishlist,jitterbug-import,NEW,---,wishlist item: changing origin of plot,11/15/2003 0:23
+15883,R,Graphics,R-core@R-project.org,NEW,---,Setting options(device) to a non-device function segfaults,7/15/2014 15:13
+16819,R,Language,R-core@R-project.org,UNCONFIRMED,---,parse() does not handle Unicode characters in input,4/13/2016 10:51
+7229,R,Wishlist,jitterbug-import,NEW,---,"Wishlist: Facility for calculating Laspeyres, Paasche or Fisher index numbers",9/15/2004 15:23
+15980,R,Graphics,R-core@R-project.org,NEW,---,Hard crash while using cairo_pdf on Windows,4/25/2016 17:23
+7936,R,Wishlist,jitterbug-import,NEW,---,by should use match.fun,6/14/2005 17:07
+16088,R,Low-level,R-core@R-project.org,NEW,---,subset on names has quadratic run time if many items don't match,11/26/2014 8:57
+8680,R,Wishlist,jitterbug-import,NEW,---,wishlist: function mlh.mlm to test multivariate linear hypotheses of the form: LBT'=0,3/13/2006 23:09
+1390,R,Wishlist,jitterbug-import,NEW,---,"Re: [Rd] X11(colortype=""true"") does not give a truecolor visual(PR#1388)",3/17/2002 3:06
+14901,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,X11 quit crashes R on OS X,6/26/2012 11:01
+2859,R,Add-ons,jitterbug-import,NEW,---,bug and proposed fix in print.trellis 1.7.0,5/14/2003 1:27
+15762,R,I/O,R-core@R-project.org,NEW,---,readLines() corrupts UTF-8 characters on Windows with open connections,4/21/2014 19:33
+16303,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Missing Sanity Checks in R-3.1.x for various library function calls...,4/6/2015 17:11
+5095,R,Documentation,jitterbug-import,NEW,---,"documentation of ""scope"": possible error + cleanup",11/15/2003 5:00
+7315,R,Wishlist,jitterbug-import,NEW,---,wish - cor.test output order change,10/27/2004 19:25
+16598,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,inconsistency in sample() with particular probability vector and 0 probability weights,11/12/2015 10:30
+7976,R,Wishlist,jitterbug-import,NEW,---,boxplot by factor (Package base version 2.1.1),6/28/2005 12:40
+8934,R,Graphics,jitterbug-import,NEW,---,Irregularity in stem() display ,6/3/2006 7:55
+1505,R,Graphics,jitterbug-import,NEW,---,pictex ,5/2/2002 15:23
+15471,R,Low-level,R-core@R-project.org,NEW,---,parallel::stopCluster(...) leaves zombie processes behind for FORK clusters,10/28/2013 20:26
+2865,R,Add-ons,jitterbug-import,NEW,---,bug in y limits in bwplot,5/14/2003 2:50
+16304,R,Misc,R-core@R-project.org,NEW,---,Missing Sanity Checks in R-3.1.x for various library function calls...,4/7/2015 17:34
+5328,R,Wishlist,jitterbug-import,NEW,---,wishlist item: symbols() to accept asp argument?,11/26/2003 23:22
+15885,R,Low-level,R-core@R-project.org,NEW,---,encodeString segfaults with long character strings,7/16/2014 15:21
+16844,R,I/O,R-core@R-project.org,UNCONFIRMED,---,write.csv without quotes when chr columns comes first and row.names = FALSE,4/18/2016 14:44
+16434,R,I/O,R-core@R-project.org,NEW,---,"In the R terminal, right-arrow or Ctrl-E locks out further keyboard input",6/20/2015 11:31
+7331,R,Documentation,jitterbug-import,NEW,---,barplot manpage,11/2/2004 6:12
+16008,R,Models,R-core@R-project.org,NEW,---,logLik.glm when some weights are zero gives -Inf and df includes the zero weighted rows.  Different than logLik.lm.,10/3/2014 22:32
+16194,R,S4methods,R-core@R-project.org,ASSIGNED,---,selectMethod() fails to find the method under certain conditions,6/16/2015 13:18
+7986,R,Wishlist,jitterbug-import,NEW,---,"Graphics: log=""x"" plot",7/4/2005 4:12
+15141,R,Installation,R-core@R-project.org,NEW,---,Installation of dependencies fails when R_LIBS differs from libpaths,12/24/2015 14:00
+9009,R,Wishlist,jitterbug-import,NEW,---,"Wish/suggestion: add output of citation() to package ""manuals""",6/20/2006 15:22
+1557,R,Wishlist,jitterbug-import,NEW,---,wishlist: I miss Frame 0,5/15/2002 11:40
+15507,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,fix() not working under Mac OS 10.9,10/24/2013 23:10
+3180,R,Wishlist,jitterbug-import,NEW,---,standard errors from glm ,6/4/2003 4:46
+15811,R,Accuracy,R-core@R-project.org,NEW,---,floating point arithmetic inaccuracy leads to incorrect results from quantile() type=2,12/26/2015 21:16
+16758,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,the 'fill' argument to function 'cat' does not function as one would expect based on documentation,3/11/2016 17:57
+16488,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,R GUI Freezes when opening files from the GUI,7/26/2015 10:07
+5536,R,Installation,jitterbug-import,NEW,---,"R 1.8.1 ./configure with "","" in working directory",12/5/2003 15:19
+15886,R,Language,R-core@R-project.org,NEW,---,summaryRprof not correct for chunksize < number of lines of log,7/16/2014 20:13
+7349,R,Wishlist,jitterbug-import,NEW,---,Wishlist: Bug reporting,11/7/2004 20:14
+16299,R,Graphics,R-core@R-project.org,ASSIGNED,---,Line is not cropped correctly in svg() device,7/22/2015 9:49
+7987,R,System-specific,jitterbug-import,NEW,---,eigen of a real pd symmetric matrix gives NaNs in $vector,7/4/2005 14:34
+16097,R,Misc,R-core@R-project.org,NEW,---,input textConnection performance quadratic as well,12/28/2015 7:42
+15169,R,Misc,R-core@R-project.org,NEW,---,set_rl_word_breaks() in src/unix/sys-std.c not playing well with others,2/3/2013 16:15
+9252,R,Wishlist,jitterbug-import,NEW,---,Wish: change behaviour of header in read.fwf,9/26/2006 5:01
+16158,R,Models,R-core@R-project.org,NEW,---,Error in predict.lm for rank-deficient cases,2/17/2015 11:49
+1658,R,Installation,jitterbug-import,NEW,---,make install fails - index.html not found,6/12/2002 1:40
+15522,R,Graphics,R-core@R-project.org,NEW,---,Barplot spacing bug,1/1/2015 16:23
+3282,R,Installation,jitterbug-import,NEW,---,1.7.1 make check fails,6/18/2003 11:08
+15812,R,Graphics,R-core@R-project.org,NEW,---,par(bg='transparent') not affecting svg,6/11/2014 9:27
+16764,R,Language,R-core@R-project.org,UNCONFIRMED,---,as.difftime erroneous values on daylight savings changeover days,3/13/2016 23:12
+6482,R,Installation,jitterbug-import,NEW,---,Installation,1/27/2004 23:51
+7376,R,Wishlist,jitterbug-import,NEW,---,Wishlist: pos argument for mget,11/18/2004 0:57
+16035,R,Graphics,R-core@R-project.org,NEW,---,Issue with plot.window and useRaster=T in image(),10/21/2014 9:15
+16332,R,Accuracy,R-core@R-project.org,ASSIGNED,---,"pbeta(0.555555, 1925.74, 33.7179, log=TRUE)  returns -Inf",4/28/2015 17:41
+412,R,Language,jitterbug-import,UNCONFIRMED,---,anomalies with call objects,8/30/2013 0:18
+7988,R,System-specific,jitterbug-import,NEW,---,eigen of a real pd symmetric matrix gives NaNs in $vector (R2.1.1 and R2.0.1 Windows),7/4/2005 14:37
+9427,R,Misc,jitterbug-import,NEW,---,substitute creates an object which prints incorrectly,12/23/2006 16:28
+1662,R,Add-ons,jitterbug-import,NEW,---,"fisher.test FEXACT memory bug ""should not occur""",4/26/2015 10:18
+3325,R,Analyses,jitterbug-import,NEW,---,optim with constraints ,9/7/2014 9:53
+15813,R,I/O,R-core@R-project.org,NEW,---,writeLines hangs with locale==C if writing special characters. infinite warnings fill up disk,3/6/2015 0:59
+16767,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,R incorrectly assumes __SUNPRO_CC == stlport in .../src/include/R_ext/Print.h,3/16/2016 13:36
+6488,R,System-specific,jitterbug-import,NEW,---,R fails to build on AFS,1/28/2004 19:40
+7379,R,Installation,jitterbug-import,NEW,---,Re: [Rd] Building Packages on Windows using .Rbuildignore,11/19/2004 0:32
+16388,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,default R_ENCODING_LOCALES uses non-existing locales on OS X,8/12/2015 16:00
+7989,R,System-specific,jitterbug-import,NEW,---,Re: [Rd] eigen of a real pd symmetric matrix gives NaNs in $vector(PR#7987),7/4/2005 15:50
+408,R,Language,jitterbug-import,NEW,---,convolution bug,3/24/2012 16:22
+10345,R,Wishlist,jitterbug-import,NEW,---,boxplot() confuses x- and y-axes,10/15/2007 21:24
+16174,R,Installation,R-core@R-project.org,NEW,---,R 3.1.2 fails to build with ifort and icc,1/28/2015 18:00
+1676,R,Installation,jitterbug-import,NEW,---,R configure.in makes bad alpha assumptions,6/17/2002 15:04
+16408,R,Models,R-core@R-project.org,UNCONFIRMED,---,strange bug related to stats:::predict.Arima and/or cbind,6/3/2015 13:44
+3690,R,Wishlist,jitterbug-import,NEW,---,"Add a 'drop' parameter, set to FALSE by default, to apply()",4/26/2015 10:26
+16784,R,I/O,R-core@R-project.org,UNCONFIRMED,---,"file.path(unknownEncoding, UTF-8Encoding) -> unknownEncoding, unlike paste().  Causes file routines to fail.",3/25/2016 21:17
+16511,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,setInternet2 has invalid default,8/17/2015 16:16
+6612,R,Wishlist,jitterbug-import,NEW,---,suggestions,2/25/2004 21:07
+15017,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,Clicking preference pane causes seq fault that kills R,12/13/2012 3:33
+7393,R,Wishlist,jitterbug-import,NEW,---,dhyper() does not allow non-integer values for input parameters mand n.,11/25/2004 14:44
+8041,R,System-specific,jitterbug-import,NEW,---,eigen gives NaN in $vectors,7/31/2005 7:15
+837,R,Graphics,jitterbug-import,NEW,---,screen doesn't handle redrawing properly,2/2/2001 1:20
+15199,R,Low-level,R-core@R-project.org,NEW,---,Default values not applied to ... arguments,2/10/2013 0:41
+16288,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Unable to find application named 'X11.app',3/31/2015 15:42
+15826,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,GUI problems MAC,6/13/2014 9:38
+16791,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,grid::grid.show.layout reports units with excessive accuracy,4/7/2016 23:37
+15926,R,Language,R-core@R-project.org,NEW,---,list2env(list()) fails because names(list()) is NULL.  Could it return an empty environment?,8/8/2014 19:58
+16855,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,"Ignored after a first single-byte character on system that sizeof(whcar_t) return 2 with grep, [g]sub, [g]regexpr",4/26/2016 8:06
+16441,R,Low-level,R-core@R-project.org,ASSIGNED,---,Segfault when an environment has an attribute that refers to itself,6/23/2015 16:56
+16101,R,I/O,R-core@R-project.org,NEW,---,"When printing list with multibyte UTF-8 names on Windows GUI, the first name is printed as characters, the rest with <U+xxxx> format.",12/8/2014 18:29
+15012,R,Misc,R-core@R-project.org,NEW,---,"gsub() with regex ""＼＼＼＼)"" makes R eat memory and CPU",8/10/2012 15:42
+16256,R,Models,R-core@R-project.org,NEW,---,"bug in predict with type=""terms"" in the presence of missing",3/14/2015 7:09
+15831,R,Graphics,R-core@R-project.org,NEW,---,"pch=""."" misaligned",6/21/2014 18:26
+16322,R,Low-level,R-core@R-project.org,NEW,---,scipen generates errors for large values,4/23/2015 3:43
+15936,R,Wishlist,R-core@R-project.org,NEW,---,SPSS import generates extra empty columns in middle of dataset,8/15/2014 19:22
+16051,R,Graphics,R-core@R-project.org,NEW,---,overlapping perpendicular axis labels,11/4/2014 16:25
+14746,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,R.app script editor snafu in Mac OS X10.5,11/18/2013 10:14
+16186,R,Misc,R-core@R-project.org,NEW,---,Matrix columns not aligned properly with some Unicode characters,2/3/2015 15:34
+16107,R,Language,R-core@R-project.org,NEW,---,is.na throws warning for NULL,12/13/2014 17:36
+16110,R,Models,R-core@R-project.org,NEW,---,nlme: corCompSymm doesn't call specialized corFactor method,12/15/2014 7:13
+15275,R,Models,R-core@R-project.org,NEW,---,"terms.formula(y ~ (x + fn(z = NA)) - fn(z = NA),simplify=TRUE) does not simplify",4/22/2013 14:01
+16677,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,"No tilde expansion in png(type = ""cairo-png"")",1/21/2016 10:55
+16377,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,"Strange behaviour for polish special character ""ł""",5/11/2015 12:38
+16732,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,Unicode characters are garbled when printing function,2/27/2016 20:24
+16522,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,"glm object $method component does not have to be ""glm.fit""",8/26/2015 13:20
+15285,R,Graphics,R-core@R-project.org,NEW,---,"In plot.lm() with which=5, the legend ""Cook's distance"" can overwrite a point label",4/20/2013 5:25
+16384,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,share/make/winshlib.mk uses SHLIB_LD instead of SHLIB_LINK,5/14/2015 12:28
+16733,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,as.POSIXlt sets isdst field incorrectly at the end of daylight saving time,2/28/2016 1:29
+16275,R,I/O,R-core@R-project.org,NEW,---,read.fortran doesn't recognise D format,3/20/2015 14:38
+16806,R,Add-ons,R-core@R-project.org,UNCONFIRMED,---,nlme getVarCov() fails for corSpatial fits for individuals with a single observation only,4/8/2016 12:29
+16637,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,R CMD check false-positive for generics with dot,12/18/2015 20:47
+16212,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,Invisible character in script file but shows in console when run,2/16/2015 4:50
+15676,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Syntax highlighting changes depending on scroll position in editor,2/19/2014 15:58
+16284,R,Language,R-core@R-project.org,NEW,---,mapply gives error if USE.NAMES is character vector,3/27/2015 23:04
+15925,R,Windows GUI / Window specific,R-core@R-project.org,ASSIGNED,---,caret stuck,8/19/2014 12:22
+16283,R,Language,R-core@R-project.org,REOPENED,---,read.csv Incorrectly Assigns row.names when there is 1 too many columns,6/23/2015 12:39
+16297,R,Misc,R-core@R-project.org,NEW,---,"one.column.matrix[one.row, ] has no names",4/2/2015 22:03
+16817,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Do not print a blank line when printing a matrix with blank named dimnames,4/10/2016 18:51
+14843,R,Graphics,R-core@R-project.org,NEW,---,dev.print treats background inconsistently,3/13/2012 14:59
+16302,R,Installation,R-core@R-project.org,NEW,---,install.packages(keep_outputs=) misplaces file.out,4/6/2015 8:35
+16360,R,Startup,R-core@R-project.org,NEW,---,"readRenviron("".Renviron""): the first escaped quote is mishandled, the rest are ok",5/1/2015 20:39
+16596,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Wishlist: Allow URLs in DESCRIPTION to have commas,12/14/2015 22:20
+16702,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,x11 plotting misses ConfigureNotify event in tiling window managers; can't interrupt plotting,2/6/2016 3:25
+16397,R,Misc,R-core@R-project.org,UNCONFIRMED,---,R CMD check warns about links to separate package's index,5/25/2015 22:12
+14406,R,Windows GUI / Window specific,R-core@R-project.org,ASSIGNED,---,Rterm.exe doesn't work after unfocusing it and focusing it again,5/25/2014 12:53
+16843,R,Installation,R-core@R-project.org,UNCONFIRMED,---,reg-tests-2 tests failure on make check-all,4/21/2016 4:38
+16538,R,Language,R-core@R-project.org,UNCONFIRMED,---,bquote() with where=list() or pairlist() has unintended behavior,9/18/2015 13:41
+14902,R,Documentation,R-core@R-project.org,NEW,---,substitute() not behaving as explained in ?delayedAssign when object in .GlobalEnv,5/1/2012 19:31
+14408,R,Low-level,R-core@R-project.org,ASSIGNED,---,Incorrect results from the TRE engine,8/24/2014 20:42
+16539,R,I/O,R-core@R-project.org,UNCONFIRMED,---,capture.output forgets character encodings,9/21/2015 10:16
+16094,R,Low-level,R-core@R-project.org,NEW,---,"Version constraints on imported package are avoided if the importing package only uses ""packageA::funA""",12/3/2014 0:34
+15810,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Negative zero in labels returned by cut(),12/24/2015 14:02
+14905,R,Models,R-core@R-project.org,NEW,---,get_all_vars mislabels output when matrices/vectors are involved,5/3/2012 20:19
+14582,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,Changing display configurations on my Mac causes spurious stderr output if Quartz or R.app is used,5/15/2011 14:05
+16752,R,Accuracy,R-core@R-project.org,REOPENED,---,"deparse, str and toString are incorrect for complex number with exponent",3/11/2016 7:59
+14938,R,Graphics,R-core@R-project.org,NEW,---,Misplaced labels in cut dendrogram plots,6/5/2012 19:57
+16543,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Writing UTF-8 strings to stderr under Windows causes incorrect display,9/28/2015 10:14
+16721,R,Graphics,R-core@R-project.org,ASSIGNED,---,image() with png() plot error for certain pixel widths,2/22/2016 9:19
+14728,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,ASSIGNED,---,tab completion adds a question mark,11/12/2011 15:02
+16662,R,Installation,R-core@R-project.org,UNCONFIRMED,---,exportClasses() directive silently ignores missing S4 classes,1/11/2016 9:28
+16241,R,Misc,R-core@R-project.org,NEW,---,Incorrect result when combining POSIXct and POSIXlt objects in one call to c.POSIXct,3/7/2015 20:38
+15010,R,I/O,R-core@R-project.org,NEW,---,Accented unicode (UTF-8) characters do not align correctly,8/5/2012 1:05
+16245,R,System-specific,R-core@R-project.org,NEW,---,line overwriting,3/19/2016 6:46
+16413,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,unexpected behaviour of plot.window() with setting of logarithmic coordinates,6/7/2015 18:32
+15951,R,I/O,R-core@R-project.org,NEW,---,"when including row names, write.csv and write.table write inconsistent column name lines.",8/26/2014 18:47
+15876,R,Documentation,R-core@R-project.org,NEW,---,help for data.frame subset operator does not indicate that i and j may be logical,7/9/2014 12:07
+16536,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Update EOPTS from mtune=core2 to mtune=generic,9/18/2015 6:40
+16585,R,Wishlist,R-core@R-project.org,REOPENED,---,citation() package version printing,10/31/2015 16:10
+16156,R,Wishlist,R-core@R-project.org,NEW,---,Reorder the three first lines of R --version [WISH],1/13/2015 23:54
+16546,R,Documentation,R-core@R-project.org,NEW,---,Duplicated line in foreign::write.dta() help files (foreign_0.8-66),12/14/2015 22:27
+16659,R,Language,R-core@R-project.org,UNCONFIRMED,---,match.arg with several.ok silently ignores incorrect arguments as long as there is one valid argument.,1/7/2016 15:48
+16710,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,Parser: '=' appears to have lower precedence than '?',2/11/2016 20:49
+16238,R,Models,R-core@R-project.org,NEW,---,Variable names with spaces or () fail with get_all_vars due to lack of quotes,3/5/2015 10:11
+15891,R,Misc,R-core@R-project.org,NEW,---,Gamma() sometimes stores the wrong link name,7/19/2014 23:13
+15180,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,encodeString() is inconsistent with print.default() for some UTF-8 characters on Windows,1/21/2013 16:57
+16146,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,valgrind complains about title() when string has fancy quotes,1/16/2015 10:28
+16179,R,Installation,R-core@R-project.org,NEW,---,detecting tinfo as a termcap library for readline,2/1/2015 22:24
+15628,R,Accuracy,R-core@R-project.org,NEW,---,dpois_raw accuracy,1/10/2014 4:38
+16409,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Autocomplete should work inside brackets without a space,6/3/2015 17:53
+16321,R,Wishlist,R-core@R-project.org,NEW,---,Vectorize utils::object.size and friends,4/17/2015 20:25
+16048,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,lowest number Quartz active after saving a graphic,10/27/2014 16:49
+16370,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,R CMD check for closeAllConnections(),5/7/2015 3:23
+16183,R,Installation,R-core@R-project.org,NEW,---,LDFLAGS overrides PKG_LIBS,2/2/2015 18:31
+15638,R,Wishlist,R-core@R-project.org,NEW,---,Extracting high dimensional structures from data frames,1/13/2014 22:32
+16482,R,Add-ons,R-core@R-project.org,ASSIGNED,---,Please add four more LAPACK functions to Rlapack,12/12/2015 17:57
+16621,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,"strptime(, tz=x) returns inconsistent gmtoff and tzone properties",12/4/2015 12:49
+16371,R,Misc,R-core@R-project.org,UNCONFIRMED,---,"""mis-spell"" -> ""misspell""",5/7/2015 13:32
+15652,R,Wishlist,R-core@R-project.org,NEW,---,Wishlist: warn user when .Rbuildignore omits files,3/8/2014 10:26
+16725,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,symlinks in package library,3/1/2016 14:18
+15024,R,Wishlist,R-core@R-project.org,NEW,---,"setRownames, setColnames and setDimnames functions",8/21/2012 19:09
+16518,R,Installation,R-core@R-project.org,UNCONFIRMED,---,"When MAIN_LD is CC, it should always include CFLAGS",8/22/2015 13:31
+16807,R,System-specific,R-core@R-project.org,NEW,---,sprintf seems to ignore some special characters in OSX and Linux,4/11/2016 14:52
+16056,R,Analyses,R-core@R-project.org,NEW,---,Cook's distance inconsistent for weighted linear models,11/2/2014 15:42
+16490,R,Low-level,R-core@R-project.org,ASSIGNED,---,speedup for library,12/16/2015 19:26
+16631,R,Installation,R-core@R-project.org,UNCONFIRMED,---,0711-228 WARNING: Duplicate symbols: R_OutputCon - not declared as extern in src/include/Defn.h,12/16/2015 8:24
+15272,R,Documentation,R-core@R-project.org,NEW,---,?nclass doesn't find the nclass help page,4/14/2013 13:21
+15654,R,Wishlist,R-core@R-project.org,NEW,---,WISH/ROBUSTNESS: R CMD check for non-named '...' arguments to NextMethod(),2/3/2014 20:58
+16266,R,Wishlist,R-core@R-project.org,NEW,---,Consider providing stopif(),1/11/2016 9:25
+16520,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Chinese Locale breaks File Read with UTF-8,8/24/2015 6:08
+15923,R,Language,R-core@R-project.org,REOPENED,---,add TakeWhile function to funprog (patch included),8/7/2014 8:10
+16063,R,Wishlist,R-core@R-project.org,NEW,---,Prevent modify attributes of shared object,11/7/2014 21:25
+16632,R,Installation,R-core@R-project.org,UNCONFIRMED,---,"Using -Wl,-bexpall causes many duplicate symbol warnings",12/16/2015 8:26
+16188,R,Language,R-core@R-project.org,NEW,---,stopifnot() should make it look like error came from its caller,2/4/2015 19:45
+15656,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,presence of Right-to-Left Font alters order of columns when displaying a data.frame,2/4/2014 22:10
+16426,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Add support for short hexadecimal colors,7/1/2015 9:23
+16268,R,Wishlist,R-core@R-project.org,NEW,---,"[WISHLIST] Upon package installation, annotate DESCRIPTION with versions of packages linked to",3/19/2015 0:42
+16796,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,dyn.load option for RTLD_DEEPBIND,4/4/2016 18:19
+16064,R,I/O,R-core@R-project.org,NEW,---,Writing UTF8 on Windows,11/7/2014 21:51
+16527,R,Wishlist,R-core@R-project.org,ASSIGNED,---,Wishlist: Make str() faster for long strings,9/8/2015 16:56
+16633,R,Installation,R-core@R-project.org,UNCONFIRMED,---,"duplicate symbols in tools.so, grDevices.so, graphics.so and libR.so - where should they really be?",4/9/2016 14:39
+15308,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Wishlist: Subscripting a terms object and predvars,5/8/2013 8:54
+16115,R,Misc,R-core@R-project.org,NEW,---,R CMD check does not notice files written to forbidden locations,12/22/2014 16:50
+16208,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,Rgui.exe continues to use 100% CPU core after exitting if any packages are installed or upgraded.,10/7/2015 7:29
+15666,R,Wishlist,R-core@R-project.org,NEW,---,Table description,2/14/2014 12:28
+16427,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Errors/Warnings using seek on a gz connection,11/18/2015 16:32
+15072,R,Models,R-core@R-project.org,NEW,---,Assessing estimability in predict.lm in rank-deficient situations,5/6/2014 15:42
+16524,R,Misc,R-core@R-project.org,UNCONFIRMED,---,parser column numbers incorrect with unicode characters,8/28/2015 14:29
+16337,R,Misc,R-core@R-project.org,NEW,---,Add data.frame support to sample(),5/1/2015 12:30
+15954,R,Add-ons,R-core@R-project.org,NEW,---,LDFLAGS is taken from environment not from R's Makeconf by 'R CMD config --ldflags',8/30/2014 11:46
+16635,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,"20-50% speedup for %in%, one line",12/18/2015 2:07
+15318,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,parallel compression,5/22/2013 20:34
+16127,R,Windows GUI / Window specific,R-core@R-project.org,NEW,---,system2 arguments are not wrapped with shQuote,2/13/2015 16:22
+16684,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Unexpected Input error,2/14/2016 9:10
+16386,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,Suggested change to the ?as.Date documentation,5/27/2015 0:46
+15667,R,Wishlist,R-core@R-project.org,NEW,---,Adding table constructor information,2/14/2014 12:32
+16738,R,I/O,R-core@R-project.org,UNCONFIRMED,---,file.show() cannot handle null bytes (in UTF-16),2/29/2016 20:20
+16277,R,Accuracy,R-core@R-project.org,NEW,---,Proposal for advanced huge number handling,3/30/2015 7:06
+16348,R,Wishlist,R-core@R-project.org,NEW,---,Label of NA values in summary.factor,2/7/2016 16:00
+16154,R,Misc,R-core@R-project.org,REOPENED,---,angleleft and angleright not available in group() and bgroup(),1/16/2015 13:14
+16075,R,Wishlist,R-core@R-project.org,NEW,---,"tools:::.BioC_version_associated_with_R_version() should now report ""3.1"" for R devel",11/18/2014 3:53
+16567,R,Documentation,R-core@R-project.org,ASSIGNED,---,Claims about computational complexity of findInterval,11/2/2015 11:02
+15338,R,Language,R-core@R-project.org,UNCONFIRMED,---,alist enhancement request,9/6/2013 0:42
+16132,R,Misc,R-core@R-project.org,NEW,---,R CMD check flags symlinks pointing to non-existent files as permission problems on NA,1/5/2015 1:39
+16694,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,Attempting to draw a transparent plot rug fails silently,2/1/2016 9:53
+14822,R,Wishlist,R-core@R-project.org,NEW,---,"match() analogue for regexes, eg firstgrep() or match( , regex=TRUE)",2/22/2012 2:37
+14323,R,S4methods,R-core@R-project.org,ASSIGNED,---,"methods::new(): information not inserted from dots when contains=""matrix""",3/20/2011 19:54
+16814,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Simplify including localization in *.c files,4/8/2016 21:03
+16531,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,ppc64el is not supported,9/9/2015 15:09
+16614,R,Analyses,R-core@R-project.org,ASSIGNED,---,Predict problem nlme,4/17/2016 14:17
+16643,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Wishlist: Don't convert in 'writeChar' to fifo connection on Windows,4/5/2016 9:05
+15388,R,I/O,R-core@R-project.org,UNCONFIRMED,---,"print.object_size: units should default to ""auto"", not ""b""",9/10/2013 15:41
+15362,R,Wishlist,R-core@R-project.org,NEW,---,Wishlist: enable simultaneously adding rows and columns by '[<-.data.frame',11/3/2013 11:54
+14825,R,Misc,R-core@R-project.org,NEW,---,Possibility to set srcref when evaluating an expr (of any kind),2/27/2012 4:49
+16744,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,"nlme getvarcov makes assumptions about data structure, can give wrong answer",3/2/2016 20:39
+14354,R,Language,R-core@R-project.org,ASSIGNED,---,wish to provide a means to mark non-standard evaluation to be skipped by codetools,10/12/2011 11:25
+16594,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,svg of rasterGrob objects creates files Inkscape and Firefox unnecessarily interpolate,11/8/2015 12:53
+16496,R,System-specific,R-core@R-project.org,REOPENED,---,Update x11 logo to new R logo,11/20/2015 17:24
+16658,R,Language,R-core@R-project.org,ASSIGNED,---,rbind.data.frame() should get an `stringsAsFactors` argument,1/12/2016 18:39
+15444,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,Script file save path lost,9/4/2013 19:40
+16136,R,Low-level,R-core@R-project.org,NEW,---,adding recursive attribute to an name and printing it leads to crash,1/6/2015 14:17
+15389,R,Misc,R-core@R-project.org,NEW,---,"file.info()$size should be an ""object_size"", not just numeric",7/10/2013 17:27
+16226,R,Wishlist,R-core@R-project.org,NEW,---,install.packages option to install into user library when in non-interactive mode,2/27/2015 19:30
+15715,R,Language,R-core@R-project.org,NEW,---,make call() more flexible,3/15/2014 15:02
+16066,R,I/O,R-core@R-project.org,ASSIGNED,---,segfault of rawConnectionValue,11/15/2014 7:01
+16665,R,Analyses,R-core@R-project.org,ASSIGNED,---,dummy.coef fails when transformations are included in formula,1/22/2016 7:45
+16648,R,Misc,R-core@R-project.org,UNCONFIRMED,---,complete.cases() give misleading message,1/3/2016 21:30
+15725,R,Misc,R-core@R-project.org,UNCONFIRMED,---,cannot edit empty dataframe in R.app,2/15/2015 19:41
+16138,R,Accuracy,R-core@R-project.org,NEW,---,Wishlist: add tolerance parameter to wilcox.test() and rank() for determining ties,1/7/2015 9:48
+15438,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,NEW,---,Improvements to Quartz/Cocoa Device when Used from Terminal,9/4/2013 14:08
+16227,R,Wishlist,R-core@R-project.org,NEW,---,Improve handling of history across multiple sessions,3/2/2015 3:28
+16750,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Treat character as factor in summary.default,3/6/2016 10:18
+16466,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,Add the tk_chooseColor widget to the tcltk package,7/4/2015 18:51
+16003,R,Documentation,R-core@R-project.org,NEW,---,heatmap scale argument: description not complete,9/30/2014 19:31
+16163,R,Misc,R-core@R-project.org,ASSIGNED,---,Opimize reshape(),5/2/2015 0:44
+16640,R,Low-level,R-core@R-project.org,REOPENED,---,2X speedup for tapply,2/14/2016 9:30
+16091,R,Documentation,R-core@R-project.org,NEW,---,nchar does not compute number of human-readable characters,11/28/2014 10:09
+16673,R,Translations,steuer@hsu-hh.de,ASSIGNED,---,de.po: German spelling corrections,1/18/2016 15:26
+15101,R,Low-level,R-core@R-project.org,NEW,---,Performance bug - assignment inside an object is much slower,11/8/2012 21:01
+15772,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,WISHLIST: modify behavior of (C entry point) nrows to handle data.frames,4/25/2014 6:54
+16144,R,Wishlist,R-core@R-project.org,NEW,---,enhancement to base::structure to prevent malformed factors,1/9/2015 0:40
+16705,R,Misc,R-core@R-project.org,UNCONFIRMED,---,inconsistent error reporting in reshape(),2/9/2016 19:56
+16400,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,add an option to release caching of available.packages metadata,5/26/2015 22:30
+16757,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Wishlist: Protect against stack overflow from PCRE,3/11/2016 8:09
+16485,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,patch: add Li's p adjustment to p.adjust(),7/23/2015 20:09
+16599,R,Installation,R-core@R-project.org,UNCONFIRMED,---,Installation breaks because of wrong libcurl version,11/12/2015 11:29
+16689,R,Misc,R-core@R-project.org,ASSIGNED,---,"Add debugCall and debugMethod to the base and methods packages, resp.",3/31/2016 11:21
+16404,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Adding incomparables to duplicated.data.frame,6/22/2015 19:16
+16234,R,Analyses,deshmukh.vaishali12@gmail.com,NEW,---,"After clicking on ""Login"" button, an error message is displaying.",3/27/2015 7:03
+16305,R,Wishlist,R-core@R-project.org,NEW,---,Seeking more consistent package descriptions and citations,4/9/2015 7:13
+16600,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,regexpr number characters limited 1464,11/17/2015 13:00
+16657,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,"format.object_size(): Add support for JEDEC units KB, MB, GB (not Kb, Mb, Gb)",1/7/2016 16:17
+16405,R,Low-level,R-core@R-project.org,UNCONFIRMED,---,do_paste redundant strlen,6/1/2015 7:22
+16506,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Easy feedback,8/13/2015 19:38
+16308,R,Documentation,R-core@R-project.org,NEW,---,Improve examples for utils::available.packages by including other parameter usage,4/12/2015 5:21
+16603,R,I/O,R-core@R-project.org,UNCONFIRMED,---,Control-C on incremental-search-backward behaves oddly,4/30/2016 2:10
+16098,R,Low-level,murdoch@stats.uwo.ca,NEW,---,Windows doesn't handle high Unicode code points,12/7/2014 17:18
+16660,R,Windows GUI / Window specific,R-core@R-project.org,UNCONFIRMED,---,Discordance between doc and behavior for R.home() on windows,1/11/2016 11:20
+16719,R,Documentation,R-core@R-project.org,UNCONFIRMED,---,kruskal.test documentation for formula,2/18/2016 22:50
+14971,R,Misc,R-core@R-project.org,NEW,---,Allow to step (debug) through the code when evaluating expressions using eval,7/9/2012 9:05
+16507,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,"Change ""Wishlist"" in the Bugzilla bug report ""Component"" box to ""Wishlist or Suggestion"".",8/13/2015 19:41
+16311,R,I/O,R-core@R-project.org,NEW,---,It would be nice if system2 could generally set environment variables from env argument,4/14/2015 19:55
+16852,R,Accuracy,R-core@R-project.org,UNCONFIRMED,---,"Inconsistent Date to POSIXt conversion between Windows, OS X and Linux",4/22/2016 12:47
+16552,R,Graphics,R-core@R-project.org,UNCONFIRMED,---,stripchart new method,10/6/2015 19:40
+16714,R,Misc,R-core@R-project.org,NEW,---,na.omit and other na.actions incurs a copy even if no change,2/17/2016 9:36
+16040,R,Wishlist,R-core@R-project.org,NEW,---,Long vectors support for the transmission in the multicore part of parallel,10/23/2014 11:24
+16604,R,System-specific,R-core@R-project.org,UNCONFIRMED,---,R does not recognize when terminal size changes,4/28/2016 15:51
+16099,R,Low-level,R-core@R-project.org,NEW,---,Version checks (sometimes) missed on Import-ed or Depend-ed packages,12/7/2014 1:53
+15576,R,Wishlist,R-core@R-project.org,NEW,---,Wishlist: color console output,11/25/2013 22:26
+16722,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Wishlist: API access to connections,2/22/2016 10:59
+14987,R,Graphics,R-core@R-project.org,NEW,---,"wishlist: image, persp, ..., findInterval to be used with decreasing x or y?",7/12/2012 14:14
+15820,R,Wishlist,R-core@R-project.org,NEW,---,option for simplify2array to work with irregular length vectors,6/7/2014 3:35
+16320,R,Graphics,R-core@R-project.org,NEW,---,Add more functions to graphics devices,4/17/2015 14:33
+15897,R,Wishlist,R-core@R-project.org,NEW,---,index(): Extend names() functionality to allow non-character data types,7/23/2014 7:45
+16554,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Simplify linking to external BLAS during R compilation,10/9/2015 6:13
+16737,R,I/O,R-core@R-project.org,NEW,---,File connections write UTF-16 incorrectly in Windows,2/29/2016 18:46
+16041,R,Low-level,R-core@R-project.org,NEW,---,parse returns non-deterministic results from identical input.,11/4/2014 14:46
+16615,R,Wishlist,R-core@R-project.org,UNCONFIRMED,---,Allow multi-character separator in scan(),11/27/2015 23:15
+14716,R,Mac GUI / Mac specific,simon.urbanek@r-project.org,UNCONFIRMED,---,Code folding in editor,10/28/2011 19:10
+16100,R,Analyses,R-core@R-project.org,NEW,---,Error in logLik.nls,12/6/2014 20:37
