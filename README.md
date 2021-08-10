@@ -1,4 +1,4 @@
-# sentence-clustering
+# Sentence-Clustering
 
 The module exposes APIs for end to end sentence clutering.
 
